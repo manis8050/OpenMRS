@@ -28,8 +28,6 @@ public class DeleteServicePage {
 		this.driver=driver;
 	}
 	
-	
-	
 
 	public void login(String username,String password) 
 	{
