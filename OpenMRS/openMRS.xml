@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+  <test thread-count="5" name="Test+CH">
+  <parameter name="username" value="Admin"/>
+   <parameter name="password" value="Admin123"/>
+   <parameter name="url" value="https://demo.openmrs.org/openmrs/login.htm"/>
+   <parameter name="browserType" value="FF"/>
+   <parameter name="serviceName" value="Urology"/>
+    <classes>
+      <class name="com.qa.tests.ValidateDeleteService"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite>
